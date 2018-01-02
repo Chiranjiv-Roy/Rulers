@@ -5,13 +5,13 @@ require "rulers/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "rulers"
-  spec.version       = Rulers::0.0.1
+  spec.version       = Rulers::VERSION
   spec.authors       = ["Chiranjiv Roy"]
   spec.email         = ["chiranjivroy0802@gmail.com"]
 
   spec.summary       = %q{A rails like framework , but smaller.}
   spec.description   = %q{This is an attempt to create a new smaller rails-like framework which combines features from Sinatra and a few other small frameworks.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/Chiranjiv-Roy/Rulers"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
